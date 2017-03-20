@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.stock.calc.service.GBCEServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-03-20T23:17:42" hostname="apples-MacBook-Pro.local" time="0.025">
+  <properties/>
+  <testcase name="getAllShareIndex" classname="com.test.stock.calc.service.GBCEServiceTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Adding the trade to data source
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Adding the trade to data source
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Adding the trade to data source
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Adding the trade to data source
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Trade Date is empty. Updating with current date
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Adding the trade to data source
+[Test worker] INFO com.test.stock.calc.service.impl.GBCEServiceImpl - Total number of Trades: 5
+[Test worker] INFO com.test.stock.calc.service.impl.GBCEServiceImpl - Multiplied price: 9.892081584E9
+]]></system-err>
+</testsuite>

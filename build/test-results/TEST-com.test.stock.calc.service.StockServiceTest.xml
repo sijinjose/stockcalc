@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.stock.calc.service.StockServiceTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2017-03-20T23:17:42" hostname="apples-MacBook-Pro.local" time="0.005">
+  <properties/>
+  <testcase name="getDividentYieldCommon" classname="com.test.stock.calc.service.StockServiceTest" time="0.002"/>
+  <testcase name="getPERatio" classname="com.test.stock.calc.service.StockServiceTest" time="0.0"/>
+  <testcase name="getDividentYieldCommonZeroPrice" classname="com.test.stock.calc.service.StockServiceTest" time="0.0"/>
+  <testcase name="getPERatioZeroDivident" classname="com.test.stock.calc.service.StockServiceTest" time="0.0"/>
+  <testcase name="getPERatioZeroPrice" classname="com.test.stock.calc.service.StockServiceTest" time="0.0"/>
+  <testcase name="getDividentYieldPreferredZeroPrice" classname="com.test.stock.calc.service.StockServiceTest" time="0.0"/>
+  <testcase name="getDividentYieldPreferred" classname="com.test.stock.calc.service.StockServiceTest" time="0.0"/>
+  <testcase name="getDividentYieldCommonZeroDivident" classname="com.test.stock.calc.service.StockServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Checking stock for symbol POP
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Last Divident: 8
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Checking stock for symbol POP
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Last Divident: 8
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Checking stock for symbol POP
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Checking stock for symbol TEA
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Last Divident: 0
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Checking stock for symbol POP
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Checking stock for symbol GIN
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Checking stock for symbol GIN
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Fixed Divident: 2
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Par Value: 100
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Checking stock for symbol TEA
+[Test worker] INFO com.test.stock.calc.service.impl.StockServiceImpl - Last Divident: 0
+]]></system-err>
+</testsuite>

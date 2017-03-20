@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.stock.calc.service.TradeServiceTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2017-03-20T23:17:42" hostname="apples-MacBook-Pro.local" time="0.057">
+  <properties/>
+  <testcase name="addTradeNullBuySeillIndicator" classname="com.test.stock.calc.service.TradeServiceTest" time="0.0"/>
+  <testcase name="addTradeNegativeQuantity" classname="com.test.stock.calc.service.TradeServiceTest" time="0.001"/>
+  <testcase name="addTradeEmptySymbol" classname="com.test.stock.calc.service.TradeServiceTest" time="0.0"/>
+  <testcase name="addTrade" classname="com.test.stock.calc.service.TradeServiceTest" time="0.001"/>
+  <testcase name="addTradePreferred" classname="com.test.stock.calc.service.TradeServiceTest" time="0.0"/>
+  <testcase name="addTradeNegativePrice" classname="com.test.stock.calc.service.TradeServiceTest" time="0.0"/>
+  <testcase name="addTradeEmptyBuySellIndicator" classname="com.test.stock.calc.service.TradeServiceTest" time="0.001"/>
+  <testcase name="calculateVWSP" classname="com.test.stock.calc.service.TradeServiceTest" time="0.05"/>
+  <testcase name="addTradeZeroPrice" classname="com.test.stock.calc.service.TradeServiceTest" time="0.0"/>
+  <testcase name="calculateVWSPZeroTrade" classname="com.test.stock.calc.service.TradeServiceTest" time="0.001"/>
+  <testcase name="addTradeNullSymbol" classname="com.test.stock.calc.service.TradeServiceTest" time="0.0"/>
+  <testcase name="addTradeNullDate" classname="com.test.stock.calc.service.TradeServiceTest" time="0.001"/>
+  <testcase name="addTradeZeroQuantity" classname="com.test.stock.calc.service.TradeServiceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Buy Sell Indicator is invalid
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Quantity is invalid
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Stock Symbol is invalid
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Adding the trade to data source
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Adding the trade to data source
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Price is invalid
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Buy Sell Indicator is invalid
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Adding the trade to data source
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Adding the trade to data source
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Adding the trade to data source
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Got all Trades for stock ALE
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Total Trades: 5
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Valid Trades: 4
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Price is invalid
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Stock Symbol is invalid
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Trade Date is empty. Updating with current date
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Adding the trade to data source
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Validating Trade
+[Test worker] INFO com.test.stock.calc.service.impl.TradeServiceImpl - Quantity is invalid
+]]></system-err>
+</testsuite>
